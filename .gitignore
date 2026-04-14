@@ -1,0 +1,25 @@
+# --- Secrets and Environment ---
+.env
+.venv/
+venv/
+env/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- FastAPI / Logs ---
+*.log
+.pytest_cache/
+
+# --- IDEs and OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
